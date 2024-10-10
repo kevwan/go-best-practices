@@ -82,7 +82,7 @@ func main() {
 }
 ```
 
-或者添加读写锁来保护 map：
+或者添加互斥锁来保护 map：
 
 ```go
 package main
